@@ -1,5 +1,12 @@
 # Docker Infrastructure
 
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Jaeger](https://img.shields.io/badge/Jaeger-66CFE3?style=flat&logo=jaeger&logoColor=black)
+![Loki](https://img.shields.io/badge/Loki-F7D01F?style=flat&logo=grafana&logoColor=black)
+
 This folder contains Docker Compose configuration for shared infrastructure services used by the CoffeeDoor microservices platform.
 
 ## Services
