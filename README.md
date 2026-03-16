@@ -7,7 +7,7 @@
 ![Jaeger](https://img.shields.io/badge/Jaeger-66CFE3?style=flat&logo=jaeger&logoColor=black)
 ![Loki](https://img.shields.io/badge/Loki-F7D01F?style=flat&logo=grafana&logoColor=black)
 
-This folder contains Docker Compose configuration for shared infrastructure services used by the CoffeeDoor microservices platform.
+This folder contains Docker Compose configuration for shared infrastructure services used by current microservices platform.
 
 ## Services
 
