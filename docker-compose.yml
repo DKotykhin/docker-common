@@ -1,5 +1,25 @@
 name: common
 services:
+  postgres-database:
+    container_name: postgres-database
+    image: postgres:18-alpine
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    volumes:
+      - postgres-db-data:/var/lib/postgresql/data/18
+    networks:
+      - coffeedoor-network
+
+  redis-db:
+    container_name: redis-db
+    image: redis:8-alpine
+    ports:
+      - 6379:6379
+    networks:
+      - coffeedoor-network
+      
   adminer:
     container_name: adminer
     image: adminer
@@ -142,6 +162,8 @@ networks:
       external: true
         
 volumes:
+  postgres-db-data:
+  redis-db-data:
   grafana-storage:
   rabbitmq-data:
   loki-data:
